@@ -1,0 +1,182 @@
+body{ 
+    background-color: rgb(186, 193, 199);
+}
+.prikazSvihProizvoda li{
+    padding: 10px;
+    display:inline-table;
+    margin: 15px 20px;
+    width: 250px;
+    height: 180px;
+    cursor: pointer;
+
+}
+
+.jedanProizvod{
+    border: 2px solid rgb(27, 57, 61);
+    border-radius: 20px;
+    width: 200px;
+    font-size: 14px;
+    height: 90px;
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+.jedanProizvod ul li{
+   list-style: none;
+}
+.jedanProizvod:hover{
+    background-color: rgb(219, 226, 190);
+}
+.jedanProizvod h2{
+    font-size: 20px;
+    text-align: center;
+}
+.opis{
+   margin-top: 6px;
+   padding-left: 10px;
+   padding-right: 10px;
+   text-align: justify;
+}
+.dugmeDodaj{
+    margin-bottom: 5px;
+    cursor: pointer;
+    background:linear-gradient(#fecc4c, #ff9900);    
+    width: 25%;
+    height: 25px;
+    color: black;    
+}
+.dugmeDodaj:hover{
+    background: #fecc4c;
+}
+.linija{
+    border: 3px solid silver;
+    width: 90%;
+}
+.dugmeNazad{
+    margin-bottom: 5px;
+    cursor: pointer;
+    background:linear-gradient(#d8a5a3, #ff0000);    
+    width: 15%;
+    height: 25px;
+    color: black;
+    margin-left: -450px;
+}
+.dugmeNazad:hover{
+    background: red;
+}
+.prikazJednogProizvoda{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    text-align: center;
+    margin: 10px auto 15px;
+    word-break:keep-all;
+    background-color: white;
+    max-width: 660px;
+}
+.cena{
+    background-color: rgb(176, 209, 187);
+    width: 80%;
+    font-size: 20px;
+    
+}
+.cenaPocetnaStrana{
+    background-color: rgb(183, 207, 226);
+    width: 90px;
+    margin-left: 90px;
+    height: 23px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+.kategorijaProizvoda{
+    margin-top: -2px;
+    margin-left: 150px;
+}
+.detaljiTabele{
+    background-color: rgb(211, 219, 226);
+    text-align: start;    
+}
+.stavkeTabele{
+    font-size: 16px;
+    background-color: rgb(219, 225, 231);
+}
+.slikaProizvoda{
+    margin: 15px 10px;
+    width: 200px;
+}
+.stavkeKorpe{
+    font-size: 16px;
+    width: 400px;
+}
+.dugmeObrisiKorpa{
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(238, 101, 101);
+    color: black;
+    font-weight: bold;
+}
+.tabelaKorpa{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(31, 44, 53);
+}
+.cenaKorpa{
+    width: 60px;
+}
+.broj{
+    color: white;
+    background-color: #ff0000;
+    padding: 3px;
+    border-radius:30%;
+    border: 2px solid black;
+    margin-left: 6px;
+}
+.kolicinaKorpa{
+    width: 45px;
+    height: 25px;
+    font-size: 15px;
+}
+
+.divTabeleKorpe{
+    display: flex;
+    justify-content: center;
+}
+.uKorpiIma{
+    cursor: pointer;
+}
+
+.fotografijaArtikla{
+    width: 100px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.prikazKorpa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pretragaProizvoda{
+    display: inline-block;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 18px;
+}
+.pretragaProizvoda input{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-width:600px){
+    .pretragaProizvoda{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 18px;
+    }
+    
+}
